@@ -13,7 +13,7 @@ void pisec_kr();
 
 
 int main() {
-    setlocale(LC_ALL, "RUSSIAN");
+    setlocale(LC_ALL, "RUSSIAN"); // Для русского языка
     cout << "Для какой фигуры провести вычисления: " << endl;
     cout << "Прямоугольник(1)" << endl;
     cout << "Окружность(2)" << endl;
